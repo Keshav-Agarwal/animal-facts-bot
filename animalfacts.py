@@ -168,6 +168,7 @@ def check_comment_for_animal(comment, reddit):
     botengine('badger', '\sbadgers?\s', reddit, BADGER_FACTS, comment)
     botengine('beaver', '\sbeavers?\s', reddit, BEAVER_FACTS, comment)
     botengine('camel', '\scamels?\s', reddit, CAMEL_FACTS, comment)
+    botengine('chameleon', '\schameleons?\s', reddit, CHAMELEON_FACTS, comment)
     botengine('cheetah', '\scheetahs?\s', reddit, CHEETAH_FACTS, comment)
     botengine('cow', '\scows?\s', reddit, COW_FACTS, comment)
     botengine('crab', '\scrabs?\s', reddit, CRAB_FACTS, comment)
@@ -293,6 +294,16 @@ CAMEL_FACTS = (
     'Camels have long been used in wartimes. Romans used camels for their ability to scare off horses who are afraid of their scent, and in recent times camels have been used to carry heavy gear and troops across hot sandy deserts.',
     'There are estimated to be over 14 million camels in the world. Camels introduced to desert areas of Australia are the worlds largest populations of feral camels.'
     )
+
+CHAMELEON_FACTS = (
+	'Almost half of the world’s chameleon species live on the island of Madagascar.',
+	'Most chameleons change from brown to green and back, but some can turn almost any colour. A change can occur in as little as 20 seconds.',
+	'Many people think chameleons change colour to blend in with their surroundings. Scientists disagree. Their studies show that light, temperature and mood cause chameleons to change colour. Sometimes changing colour can make the chameleon more comfortabl. Sometimes it helps the animal communicate with other chameleons.'
+	'Chameleon eyes have a 360-degree arc of vision and can see two directions at once.',
+	'Chameleons vary greatly in size and body structure, with maximum total length varying from 15 millimetres (0.6 in) in male Brookesia micra (one of the world’s smallest reptiles) to 68.5 centimetres (30 in) in the male Furcifer oustaleti.',
+	'Chameleons can’t hear much. Like snakes, chameleons do not have an outer or a middle ear so there is neither an ear opening nor an eardrum. However, chameleons are not deaf. They can detect sound frequencies in the range 200–600 Hz.',
+	'Ultraviolet vision. Chameleons can see in both visible and ultraviolet light. Chameleons exposed to ultraviolet light show increased social behaviour and activity levels and are more inclined to bask and feed. They are also more likely to reproduce as it has a positive effect on the pineal gland.'
+	)
 
 CHEETAH_FACTS = (
     'The cheetah is the fastest land animal in the world. They can reach a top speed of around 113 km per hour.',
